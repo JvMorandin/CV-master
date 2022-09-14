@@ -55,6 +55,8 @@ a:hover {
 
 #menu {
     margin: 0;
+    display: flex;
+    justify-content: space-between;
 }
 
 #menu ul,
@@ -88,4 +90,8 @@ a:hover {
 #footnote li {
     list-style-type: none;
     margin-top: 3px;
+}
+
+.bandeiras {
+    text-align: right;
 }
